@@ -2889,7 +2889,7 @@
   #endif
 
   #if AXIS_IS_TMC(I)
-    #define I_CURRENT      700
+    #define I_CURRENT      566
     #define I_CURRENT_HOME I_CURRENT
     #define I_MICROSTEPS     8
     #define I_RSENSE         0.11
@@ -2899,7 +2899,7 @@
   #endif
 
   #if AXIS_IS_TMC(J)
-    #define J_CURRENT      700
+    #define J_CURRENT      566
     #define J_CURRENT_HOME J_CURRENT
     #define J_MICROSTEPS     8
     #define J_RSENSE         0.11
