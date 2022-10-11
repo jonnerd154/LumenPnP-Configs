@@ -266,7 +266,7 @@
                </actuator>
             </actuators>
             <cameras>
-               <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" id="CAM1607555396816" name="Top" looking="Down" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="300" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="10.0" suspend-preview-in-tasks="false" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.0" flip-x="true" flip-y="true" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" light-actuator-id="ACT171d0f56813feba0" allow-machine-actuators="true" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="PnP Top Camera \\?\usb#vid_32e4&amp;pid_9310&amp;mi_00#7&amp;3c4e0f5&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0">
+               <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" id="CAM1607555396816" name="Top" looking="Down" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="true" anti-glare-light-off="true" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="Maximum" settle-time-ms="300" settle-timeout-ms="80" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="true" fps="10.0" suspend-preview-in-tasks="false" capture-try-count="4" capture-try-timeout-ms="2000" rotation="0.0" flip-x="true" flip-y="true" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" light-actuator-id="ACT171d0f56813feba0" allow-machine-actuators="true" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="PnP Top Camera \\?\usb#vid_32e4&amp;pid_9310&amp;mi_00#7&amp;3c4e0f5&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0">
                   <units-per-pixel units="Millimeters" x="0.01404494" y="0.01308901" z="0.0" rotation="0.0"/>
                   <camera-primary-z value="0.0" units="Millimeters"/>
                   <default-z value="0.0" units="Millimeters"/>
@@ -329,7 +329,7 @@
       </heads>
       <signalers/>
       <feeders>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16db84f3240a38cc" name="Left-8mm-1" enabled="true" part-id="BoardLE+-R0603-4.7k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="6" max-feed-count="20">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16db84f3240a38cc" name="Left-8mm-1" enabled="true" part-id="BoardLE+-R0603-4.7k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="13" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
             <reference-hole-location units="Millimeters" x="274.546" y="112.30590757445367" z="13.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="274.561" y="108.33663119278259" z="0.0" rotation="0.0"/>
@@ -695,7 +695,7 @@
          </feeder>
       </feeders>
       <cameras>
-         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM1614803235898" name="Bottom" looking="Up" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="false" anti-glare-light-off="false" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="FixedTime" settle-time-ms="300" settle-timeout-ms="500" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="false" fps="10.0" suspend-preview-in-tasks="false" capture-try-count="4" capture-try-timeout-ms="2000" rotation="1.356" flip-x="true" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" light-actuator-id="ACT171d0f4dc22b3560" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="PnP Bottom Camera \\?\usb#vid_32e4&amp;pid_9310&amp;mi_00#7&amp;244bc466&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0">
+         <camera class="org.openpnp.machine.reference.camera.OpenPnpCaptureCamera" id="CAM1614803235898" name="Bottom" looking="Up" auto-visible="true" shown-in-multi-camera-view="true" before-capture-light-on="true" user-action-light-on="true" after-capture-light-off="true" anti-glare-light-off="true" enable-units-per-pixel-3-d="false" auto-view-plane-z="false" settle-method="Maximum" settle-time-ms="300" settle-timeout-ms="80" settle-threshold="0.0" settle-debounce="0" settle-full-color="false" settle-gaussian-blur="0" settle-gradients="false" settle-mask-circle="0.0" settle-contrast-enhance="0.0" settle-diagnostics="true" fps="10.0" suspend-preview-in-tasks="false" capture-try-count="4" capture-try-timeout-ms="2000" rotation="1.356" flip-x="true" flip-y="false" offset-x="0" offset-y="0" crop-width="0" crop-height="0" scale-width="0" scale-height="0" red-balance="1.0" green-balance="1.0" blue-balance="1.0" red-gamma="1.0" green-gamma="1.0" blue-gamma="1.0" deinterlace="false" light-actuator-id="ACT171d0f4dc22b3560" allow-machine-actuators="false" focus-sensing-method="None" white-balance-lead-fractile="0.8" white-balance-clip-fractile="0.99" white-balance-gamma-fractile="0.5" unique-id="PnP Bottom Camera \\?\usb#vid_32e4&amp;pid_9310&amp;mi_00#7&amp;244bc466&amp;0&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global" format-id="0">
             <units-per-pixel units="Millimeters" x="0.01333333" y="0.01342282" z="0.0" rotation="0.0"/>
             <default-z value="31.0" units="Millimeters"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
@@ -734,10 +734,10 @@
             <back-light-compensation property="BackLightCompensation" value="1" auto="false"/>
             <brightness property="Brightness" value="35" auto="false"/>
             <contrast property="Contrast" value="156" auto="false"/>
-            <exposure property="Exposure" value="-5" auto="false"/>
+            <exposure property="Exposure" value="-8" auto="false"/>
             <focus property="Focus" value="30" auto="true"/>
             <gain property="Gain" value="40" auto="false"/>
-            <gamma property="Gamma" value="72" auto="false"/>
+            <gamma property="Gamma" value="95" auto="false"/>
             <hue property="Hue" value="0" auto="false"/>
             <power-line-frequency property="PowerLineFrequency" value="1" auto="false"/>
             <saturation property="Saturation" value="61" auto="false"/>
@@ -747,10 +747,10 @@
          </camera>
       </cameras>
       <actuators>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT171d0f4dc22b3560" name="Up-Light" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT171d0f4dc22b3560" name="Up-Light" value-type="Double" value-type-confirmed="true" default-on-double="255.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
-         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT171d0f56813feba0" name="Down-Light" value-type="Boolean" value-type-confirmed="false" default-on-double="0.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
+         <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="ACT171d0f56813feba0" name="Down-Light" value-type="Double" value-type-confirmed="true" default-on-double="255.0" default-on-string="" default-off-double="0.0" default-off-string="" interlock-actuator="false" driver-id="DRV16982438146c1dd4" coordinated-before-actuate="true" coordinated-after-actuate="false" coordinated-before-read="true" enabled-actuation="AssumeUnknown" homed-actuation="LeaveAsIs" disabled-actuation="LeaveAsIs" index="0">
             <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
          </actuator>
       </actuators>
@@ -776,7 +776,6 @@
                <text><![CDATA[M82 ; Set absolute mode for extruder]]></text>
             </command>
             <command type="HOME_COMMAND">
-               <text><![CDATA[M150 P225 R225 U225 B255 ; Turn on lights before homing, so they are on for the homing fiducial captures]]></text>
                <text><![CDATA[G28 ; Home all axes]]></text>
             </command>
             <command type="MOVE_TO_COMMAND">
@@ -824,14 +823,14 @@
             <command head-mountable-id="ACT171d0f4dc22b3560" type="ACTUATE_DOUBLE_COMMAND">
                <text><![CDATA[M150 S1 P{DoubleValue:%.0f} R255 U255 B255]]></text>
             </command>
-            <command head-mountable-id="ACT171d0f4dc22b3560" type="ACTUATE_BOOLEAN_COMMAND">
-               <text><![CDATA[{True:M150 S1 P255 R255 U255 B255}{False:M150 S1 P0}]]></text>
-            </command>
             <command head-mountable-id="ACT171d0f56813feba0" type="ACTUATE_BOOLEAN_COMMAND">
                <text><![CDATA[{True:M150 S0 P255 R255 U255 B255}{False:M150 S0 P0}]]></text>
             </command>
             <command head-mountable-id="ACT171d0f56813feba0" type="ACTUATE_DOUBLE_COMMAND">
                <text><![CDATA[M150 S0 P{DoubleValue:%.0f} R255 U255 B255]]></text>
+            </command>
+            <command head-mountable-id="ACT171d0f4dc22b3560" type="ACTUATE_BOOLEAN_COMMAND">
+               <text><![CDATA[{True:M150 S1 P255 R255 U255 B255}{False:M150 S1 P0}]]></text>
             </command>
          </driver>
       </drivers>
@@ -925,7 +924,7 @@
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
                      <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.09007382281047545" center-y="-0.28565248270780563" radius="0.06862061090709343" phase-shift="-103.588789614189" units="Millimeters" peak-error="0.01103970929611681" rms-error="0.007703838490363829"/>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.07418933457557318" center-y="-0.01995301989317251" radius="0.08732507382853755" phase-shift="84.27414312293921" units="Millimeters" peak-error="0.008937409994461184" rms-error="0.006647935214351486"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
