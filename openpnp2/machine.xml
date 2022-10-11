@@ -832,6 +832,13 @@
             <command head-mountable-id="ACT171d0f4dc22b3560" type="ACTUATE_BOOLEAN_COMMAND">
                <text><![CDATA[{True:M150 S1 P255 R255 U255 B255}{False:M150 S1 P0}]]></text>
             </command>
+            <command type="DISABLE_COMMAND">
+               <text><![CDATA[M18 		; Disables all steppers]]></text>
+               <text><![CDATA[M150 S1 P0 	; Up-Light off]]></text>
+               <text><![CDATA[M150 S0 P0 	; Down-light off]]></text>
+               <text><![CDATA[M106 P1 S255 	; Valve 1 Release]]></text>
+               <text><![CDATA[M107 		; Pump 1 off]]></text>
+            </command>
          </driver>
       </drivers>
       <discard-location units="Millimeters" x="-21.5" y="39.1" z="21.1" rotation="0.0"/>
