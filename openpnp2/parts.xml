@@ -1,0 +1,21 @@
+<openpnp-parts>
+   <part fiducial-vision-id="FVS1707fbd05660345b" id="FIDUCIAL-HOME" name="Homing Fiducial - Do Not Delete" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-4.7k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-560R" name="" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-750R" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-1k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-1.5k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-2.2k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-3.6k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-6.8k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-22k" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-APA102-5050-APA102-5050" height-units="Millimeters" height="1.3" package-id="BoardLE+-APA102-5050" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-R0603-22R" height-units="Millimeters" height="0.45" package-id="BoardLE+-R0603" speed="1.0" pick-retry-count="0"/>
+   <part bottom-vision-id="BVS1707a6e649429240" id="BoardLE+-TQFN44_7MM-ATMEGA32U4-MU" height-units="Millimeters" height="0.7" package-id="BoardLE+-TQFN44_7MM" speed="0.5" pick-retry-count="0"/>
+   <part id="BoardLE+-RESONATOR-SMD-16MHz" height-units="Millimeters" height="0.9" package-id="BoardLE+-RESONATOR-SMD" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-C0603-10uF" height-units="Millimeters" height="0.8" package-id="BoardLE+-C0603" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-C0603-1uF" height-units="Millimeters" height="0.8" package-id="BoardLE+-C0603" speed="1.0" pick-retry-count="0"/>
+   <part fiducial-vision-id="FVS_Default" id="FID-simple" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0"/>
+   <part bottom-vision-id="BVS1708430daf3911b4" id="BoardLE+-PTS636SK43JSMTRLFS-PTS636SK43JSMTRLFS" height-units="Millimeters" height="4.3" package-id="BoardLE+-PTS636SK43JSMTRLFS" speed="1.0" pick-retry-count="0"/>
+   <part id="BoardLE+-PTS526SK15SMTR2LFS-PTS526SK15SMTR2LFS" height-units="Millimeters" height="1.6" package-id="BoardLE+-PTS526SK15SMTR2LFS" speed="1.0" pick-retry-count="0"/>
+</openpnp-parts>

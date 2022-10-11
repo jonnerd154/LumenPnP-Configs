@@ -1,0 +1,52 @@
+<openpnp-packages>
+   <package version="1.1" fiducial-vision-id="FVS17061468862aeef8" id="FIDUCIAL-1X2" tape-specification="" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="1.0" body-height="1.0">
+         <pad name="1" x="0.0" y="0.0" width="1.0" height="1.0" rotation="0.0" roundness="100.0"/>
+      </footprint>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>NT1</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" bottom-vision-id="BVS1707ae99516a4b38" id="BoardLE+-R0603" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="0.85" body-height="1.55"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>NT1</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" id="BoardLE+-APA102-5050" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="5.0" body-height="5.0"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>TIP16ddddd9dd25c61f</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" id="BoardLE+-TQFN44_7MM" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="7.0" body-height="7.0"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>TIP16deefe196ef7a3b</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" id="BoardLE+-RESONATOR-SMD" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="3.2" body-height="1.3"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>NT1</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" bottom-vision-id="BVS1707ad65fc4091b4" id="BoardLE+-C0603" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="0.85" body-height="1.55"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>NT1</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" id="BoardLE+-PTS636SK43JSMTRLFS" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="1.0" body-height="8.0"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>TIP16b1a61b09e0c660</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+   <package version="1.1" id="BoardLE+-PTS526SK15SMTR2LFS" pick-vacuum-level="0.0" place-blow-off-level="0.0">
+      <footprint units="Millimeters" body-width="6.0" body-height="6.0"/>
+      <compatible-nozzle-tip-ids class="java.util.ArrayList">
+         <string>TIP16b1a61b09e0c660</string>
+      </compatible-nozzle-tip-ids>
+   </package>
+</openpnp-packages>
