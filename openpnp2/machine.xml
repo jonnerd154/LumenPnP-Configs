@@ -836,8 +836,10 @@
                <text><![CDATA[M18 		; Disables all steppers]]></text>
                <text><![CDATA[M150 S1 P0 	; Up-Light off]]></text>
                <text><![CDATA[M150 S0 P0 	; Down-light off]]></text>
+               <text><![CDATA[M107 P0 	; Pump 1 off]]></text>
                <text><![CDATA[M107 P1 	; Valve 1 Release]]></text>
-               <text><![CDATA[M107 		; Pump 1 off]]></text>
+               <text><![CDATA[M107 P2 	; Pump 2 off]]></text>
+               <text><![CDATA[M107 P3 	; Valve 2 Release]]></text>
             </command>
          </driver>
       </drivers>
