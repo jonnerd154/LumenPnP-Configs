@@ -19,7 +19,8 @@ This repository contains the OpenPnP and Marlin configurations I use for my Opul
  - Nozzle change operations optimized for reasonable speed, without jeopardizing reliability.
  - All vision pipelines use `DetectCircularSymmetry` where appropriate (fids, sprocket holes, nozzles)
  - All axis are using 32-step microstepping control to ensure accuracy of movements to 0.01mm, but without overloading the controller or making ugly sounds/vibrations.
- 
+ - "Disable Machine" button in OpenPNP instructs the machine to disable all outputs (steppers, pumps, values, lights).
+
 ## Kinematic Limits:
 
 - X-Axis: 
