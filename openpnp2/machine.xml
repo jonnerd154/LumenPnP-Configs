@@ -1101,7 +1101,7 @@
                <minimum-detail-size value="0.2" units="Millimeters"/>
                <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
-               <calibration-tip-diameter value="1.5" units="Millimeters"/>
+               <calibration-tip-diameter value="2.0" units="Millimeters"/>
             </calibration>
             <method-part-on>Absolute</method-part-on>
             <part-on-check-after-pick>true</part-on-check-after-pick>
