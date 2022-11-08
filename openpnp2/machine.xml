@@ -395,7 +395,7 @@
                   <zoom property="Zoom" value="100"/>
                </camera>
             </cameras>
-            <park-location units="Millimeters" x="0.0" y="480.0" z="0.0" rotation="0.0"/>
+            <park-location units="Millimeters" x="2.0" y="480.0" z="0.0" rotation="0.0"/>
             <soft-limits-enabled>false</soft-limits-enabled>
             <homing-fiducial-location units="Millimeters" x="218.15" y="163.425" z="0.0" rotation="0.0"/>
             <calibration-primary-fiducial-location units="Millimeters" x="218.15" y="163.425" z="0.0" rotation="0.0"/>
@@ -407,7 +407,7 @@
       <feeders>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16db84f3240a38cc" name="Left-8mm-1" enabled="true" part-id="BoardLE+-R0603-4.7k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="6" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="273.9011368772748" y="111.96555461156225" z="-25.2" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="273.9011368772748" y="111.96555461156225" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="273.9077158335417" y="108.02965802376514" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
