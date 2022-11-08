@@ -1362,7 +1362,7 @@
       </fiducial-locator>
       <motion-planner class="org.openpnp.machine.reference.driver.NullMotionPlanner" maximum-plan-history="60.0"/>
       <home-after-enabled>false</home-after-enabled>
-      <park-after-homed>false</park-after-homed>
+      <park-after-homed>true</park-after-homed>
       <unsafe-Z-roaming-distance value="10.0" units="Millimeters"/>
       <solutions show-indicator="true" target-milestone="Calibration">
          <dismissed-solutions class="java.util.HashSet">
