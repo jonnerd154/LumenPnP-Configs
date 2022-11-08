@@ -11,7 +11,7 @@
             <safe-zone-low value="0.0" units="Millimeters"/>
             <safe-zone-high value="0.0" units="Millimeters"/>
             <feedrate-per-second value="500.0" units="Millimeters"/>
-            <acceleration-per-second-2 value="5000.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="4000.0" units="Millimeters"/>
             <jerk-per-second-3 value="10000.0" units="Millimeters"/>
             <resolution>1.0E-4</resolution>
             <step-test-graph relative-padding-left="0.05" relative-padding-right="0.0" logarithmic="false" zero-nano-time="-9223372036854775808" last-t="0">
