@@ -1103,19 +1103,19 @@
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="1.5" units="Millimeters"/>
             </calibration>
-            <method-part-on>None</method-part-on>
+            <method-part-on>Absolute</method-part-on>
             <part-on-check-after-pick>true</part-on-check-after-pick>
             <part-on-check-align>true</part-on-check-align>
             <part-on-check-before-place>true</part-on-check-before-place>
-            <vacuum-level-part-on-low>19000.0</vacuum-level-part-on-low>
-            <vacuum-level-part-on-high>21000.0</vacuum-level-part-on-high>
+            <vacuum-level-part-on-low>14000.0</vacuum-level-part-on-low>
+            <vacuum-level-part-on-high>20700.0</vacuum-level-part-on-high>
             <vacuum-difference-part-on-low>0.0</vacuum-difference-part-on-low>
             <vacuum-difference-part-on-high>0.0</vacuum-difference-part-on-high>
-            <method-part-off>None</method-part-off>
+            <method-part-off>Absolute</method-part-off>
             <part-off-check-after-place>true</part-off-check-after-place>
             <part-off-check-before-pick>true</part-off-check-before-pick>
-            <vacuum-level-part-off-low>0.0</vacuum-level-part-off-low>
-            <vacuum-level-part-off-high>0.0</vacuum-level-part-off-high>
+            <vacuum-level-part-off-low>28000.0</vacuum-level-part-off-low>
+            <vacuum-level-part-off-high>32000.0</vacuum-level-part-off-high>
             <vacuum-difference-part-off-low>0.0</vacuum-difference-part-off-low>
             <vacuum-difference-part-off-high>0.0</vacuum-difference-part-off-high>
             <diameter-low value="0.0" units="Millimeters"/>
