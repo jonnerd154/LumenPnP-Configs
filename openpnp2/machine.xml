@@ -942,7 +942,7 @@
             </command>
          </driver>
       </drivers>
-      <discard-location units="Millimeters" x="-21.5" y="39.1" z="-22.0" rotation="0.0"/>
+      <discard-location units="Millimeters" x="31.0" y="39.1" z="0.0" rotation="0.0"/>
       <properties>
          <entry>
             <string>CameraCalibrationProcessProperties</string>
