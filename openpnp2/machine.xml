@@ -778,7 +778,7 @@
             <units-per-pixel units="Millimeters" x="0.03448276" y="0.03448276" z="0.0" rotation="0.0"/>
             <default-z value="31.0" units="Millimeters"/>
             <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
-            <head-offsets units="Millimeters" x="217.16" y="119.969" z="0.0" rotation="180.0"/>
+            <head-offsets units="Millimeters" x="217.771" y="120.31" z="0.0" rotation="180.0"/>
             <safe-z value="0.0" units="Millimeters"/>
             <calibration enabled="true">
                <camera-matrix length="9">2788.1959555397398, 0.0, 581.7584720450479, 0.0, 2737.9876300396363, 450.08921861723064, 0.0, 0.0, 1.0</camera-matrix>
