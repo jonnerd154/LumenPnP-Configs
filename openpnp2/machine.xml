@@ -427,7 +427,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16db92e2e4e042db" name="Left-8mm-2" enabled="true" part-id="BoardLE+-R0603-560R" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="1" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="282.4064700742785" y="110.40036987784173" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="282.4064700742785" y="110.40036987784173" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="282.42051501427846" y="106.29696524284172" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -447,7 +447,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16db931b96ba52d9" name="Left-8mm-3" enabled="true" part-id="BoardLE+-R0603-750R" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="9" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="292.4113287044847" y="107.9303899188936" z="13.15" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="292.4113287044847" y="107.9303899188936" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="292.51483913941917" y="104.05532151739753" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -467,7 +467,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbd98f0100bdd8" name="Left-8mm-4" enabled="true" part-id="BoardLE+-R0603-1k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="303.49080618493423" y="111.156830887066" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="303.49080618493423" y="111.156830887066" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="303.5458267980191" y="107.21055408531015" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -487,7 +487,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbda345f7a6212" name="Left-8mm-5" enabled="true" part-id="BoardLE+-R0603-1.5k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="313.7957910848329" y="114.88500957432431" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="313.7957910848329" y="114.88500957432431" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="313.8659484281067" y="110.89291809331324" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -507,7 +507,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbda40a4c6384e" name="Left-8mm-6" enabled="true" part-id="BoardLE+-R0603-2.2k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="8" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="324.09823565080956" y="106.80604632632203" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="324.09823565080956" y="106.80604632632203" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="324.09074532219125" y="102.84123813659177" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -527,7 +527,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbda49a8ec942e" name="Left-8mm-7" enabled="true" part-id="BoardLE+-R0603-3.6k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="9" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="334.41017377814387" y="114.28776151471136" z="12.6" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="334.41017377814387" y="114.28776151471136" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="334.49407806726526" y="110.32778993668279" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -547,7 +547,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbda504e5583a1" name="Right-8mm-1" enabled="true" part-id="BoardLE+-R0603-6.8k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="8" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="361.79269703834046" y="110.35487283918086" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="361.79269703834046" y="110.35487283918086" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="361.75076793362035" y="106.39561207867628" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -567,7 +567,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbda589c6d44d1" name="Right-8mm-2" enabled="true" part-id="BoardLE+-R0603-22k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="9" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="372.5403013308145" y="114.17838001040055" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="372.5403013308145" y="114.17838001040055" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="372.49783360257203" y="110.13392244504713" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -587,7 +587,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbda5f3be80333" name="Right-8mm-3" enabled="true" part-id="BoardLE+-R0603-22R" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="5" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="382.9228627060077" y="114.46975517656269" z="13.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="382.9228627060077" y="114.46975517656269" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="383.0067873244906" y="110.41213020641173" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -607,7 +607,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbdaa7dffed4e3" name="Back Left 8mm 1" enabled="true" part-id="BoardLE+-C0603-1uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="2" max-feed-count="14">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="25.878328796357668" y="327.30441134109606" z="13.05" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="25.878328796357668" y="327.30441134109606" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="25.976031322464305" y="331.3360127545104" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -627,7 +627,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dbdab053f643a9" name="Back Left 8mm 2" enabled="true" part-id="BoardLE+-C0603-10uF" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="4" max-feed-count="12">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="37.7171557613552" y="326.9410610460103" z="13.05" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="37.7171557613552" y="326.9410610460103" z="-26.5" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="37.70294159823152" y="330.9590762062304" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -647,7 +647,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16dee98a07aabf5c" name="ReferenceStripFeeder" enabled="true" part-id="BoardLE+-RESONATOR-SMD-16MHz" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="2" max-feed-count="10">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="51.42436720864253" y="326.538209462294" z="12.6" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="51.42436720864253" y="326.538209462294" z="0.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="51.5243396155959" y="330.56851665915764" z="0.0" rotation="0.0"/>
             <part-pitch value="4.0" units="Millimeters"/>
             <tape-width value="8.0" units="Millimeters"/>
@@ -666,12 +666,12 @@
             </pipeline>
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" version="1.1" id="FDR16deef0e146df578" name="ReferenceTrayFeeder" enabled="true" part-id="BoardLE+-TQFN44_7MM-ATMEGA32U4-MU" retry-count="3" feed-retry-count="3" pick-retry-count="3" tray-count-x="1" tray-count-y="3" feed-count="2">
-            <location units="Millimeters" x="253.524" y="87.611" z="13.5" rotation="270.0"/>
+            <location units="Millimeters" x="253.524" y="87.611" z="0.0" rotation="270.0"/>
             <offsets units="Millimeters" x="0.0" y="-9.25" z="0.0" rotation="0.0"/>
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e37af5f5b38a70" name="Right Long 12" enabled="false" part-id="BoardLE+-APA102-5050-APA102-5050" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="BlackPlastic" standard-eia-481="true" vision-enabled="true" feed-count="40" max-feed-count="42">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="180.0"/>
-            <reference-hole-location units="Millimeters" x="132.4959386944667" y="408.5278240767666" z="11.8" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="132.4959386944667" y="408.5278240767666" z="0.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="132.43928101958323" y="400.615255951624" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="12.0" units="Millimeters"/>
@@ -691,7 +691,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e37b31f7cc8da8" name="Right Long 16" enabled="false" part-id="BoardLE+-PTS636SK43JSMTRLFS-PTS636SK43JSMTRLFS" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="39" max-feed-count="40">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="148.26200083537182" y="408.7591120606478" z="11.2" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="148.26200083537182" y="408.7591120606478" z="0.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="148.2222501936766" y="400.9386195593969" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="16.0" units="Millimeters"/>
@@ -711,7 +711,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e6cbf27bcfe644" name="Long Left 1 12mm" enabled="true" part-id="BoardLE+-PTS526SK15SMTR2LFS-PTS526SK15SMTR2LFS" retry-count="3" feed-retry-count="3" pick-retry-count="3" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="2" max-feed-count="6">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="87.32927308659366" y="180.16953979686804" z="12.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="87.32927308659366" y="180.16953979686804" z="0.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="87.30064088477184" y="172.16506377696228" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="12.0" units="Millimeters"/>
@@ -731,7 +731,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e7222b8e701c58" name="Back Middle 12mm 1" enabled="false" part-id="BoardLE+-APA102-5050-APA102-5050" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="BlackPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="180.0"/>
-            <reference-hole-location units="Millimeters" x="86.9661895014668" y="355.53181628088214" z="11.8" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="86.9661895014668" y="355.53181628088214" z="0.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="86.88022203239598" y="347.5265979174973" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="12.0" units="Millimeters"/>
@@ -751,7 +751,7 @@
          </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e722ceca0ed850" name="Back Middle 16mm 2" enabled="false" part-id="BoardLE+-PTS636SK43JSMTRLFS-PTS636SK43JSMTRLFS" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="30">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="102.59225613811162" y="359.015872975978" z="11.2" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="102.59225613811162" y="359.015872975978" z="0.0" rotation="0.0"/>
             <last-hole-location units="Millimeters" x="102.7598370050527" y="351.0241266665866" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="16.0" units="Millimeters"/>
