@@ -269,7 +269,7 @@
       <heads>
          <head class="org.openpnp.machine.reference.ReferenceHead" id="H1" name="H1" visual-homing-method="ResetToFiducialLocation" nozzle-solution="Standalone" nozzle-solutions-multiplier="1">
             <nozzles>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518bfaaf7d370" axis-rotation-id="AXS172518dbba650dd4" id="N1" name="N1" rotation-mode="PlacementAngle" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="NT1" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518bfaaf7d370" axis-rotation-id="AXS172518dbba650dd4" id="N1" name="N1" rotation-mode="MinimalRotation" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="NT1" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP16deefe196ef7a3b</string>
                      <string>TIP171d0a136ec3156c</string>
@@ -283,7 +283,7 @@
                   <vacuum-sense-actuator-name>VAC1-N1_Sense</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>N1_PumpAndValve</vacuum-actuator-name>
                </nozzle>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518d062930224" axis-rotation-id="AXS172518e4bbb3a188" id="NOZ1725191b1873c2dc" name="N2" rotation-mode="PlacementAngle" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="TIP16b1a61b09e0c660" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518d062930224" axis-rotation-id="AXS172518e4bbb3a188" id="NOZ1725191b1873c2dc" name="N2" rotation-mode="MinimalRotation" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="TIP16b1a61b09e0c660" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP171d0a136ec3156c</string>
                      <string>NT1</string>
