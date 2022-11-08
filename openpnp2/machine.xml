@@ -112,9 +112,9 @@
             <soft-limit-high value="484.96" units="Millimeters"/>
             <safe-zone-low value="0.0" units="Millimeters"/>
             <safe-zone-high value="0.0" units="Millimeters"/>
-            <feedrate-per-second value="233.333" units="Millimeters"/>
-            <acceleration-per-second-2 value="5000.0" units="Millimeters"/>
-            <jerk-per-second-3 value="0.0" units="Millimeters"/>
+            <feedrate-per-second value="500.0" units="Millimeters"/>
+            <acceleration-per-second-2 value="1500.0" units="Millimeters"/>
+            <jerk-per-second-3 value="10000.0" units="Millimeters"/>
             <resolution>1.0E-4</resolution>
             <step-test-graph relative-padding-left="0.05" relative-padding-right="0.0" logarithmic="false" zero-nano-time="-9223372036854775808" last-t="0">
                <data-scale label="E" label-shown="false" relative-padding-top="0.0" relative-padding-bottom="0.2" logarithmic="false" symmetric-if-signed="true" square-aspect-ratio="false">
@@ -852,7 +852,8 @@
                <text><![CDATA[G28 ; Home all axes]]></text>
             </command>
             <command type="MOVE_TO_COMMAND">
-               <text><![CDATA[G0 {X:X%.4f} {Y:Y%.4f} {Z:Z%.4f} {A:A%.4f} {B:B%.4f} F{FeedRate:%.0f} ; Send standard Gcode move]]></text>
+               <text><![CDATA[{Acceleration:M204 S%.2f} ]]></text>
+               <text><![CDATA[G1 {X:X%.4f} {Y:Y%.4f} {Z:Z%.4f} {A:A%.4f} {B:B%.4f} {FeedRate:F%.2f} ; move to target]]></text>
             </command>
             <command type="MOVE_TO_COMPLETE_COMMAND">
                <text><![CDATA[M400 ; Wait for moves to complete before returning]]></text>
