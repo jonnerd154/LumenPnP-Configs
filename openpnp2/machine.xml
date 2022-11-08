@@ -289,7 +289,7 @@
                      <string>TIP16deefe196ef7a3b</string>
                      <string>TIP16ddddd9dd25c61f</string>
                   </compatible-nozzle-tip-ids>
-                  <head-offsets units="Millimeters" x="22.436" y="-73.103" z="0.0" rotation="0.0"/>
+                  <head-offsets units="Millimeters" x="22.436" y="-73.103" z="0.4" rotation="0.0"/>
                   <manual-nozzle-tip-change-location units="Millimeters" x="71.735" y="21.636" z="0.0" rotation="0.0"/>
                   <vacuum-sense-actuator-name>VAC2-N2_Sense</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>N2_PumpAndValve</vacuum-actuator-name>
