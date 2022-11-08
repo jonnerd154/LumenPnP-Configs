@@ -932,10 +932,10 @@
                <text><![CDATA[M3426 G2 C{Index} I1 A0]]></text>
             </command>
             <command head-mountable-id="ACT172519b8392e236c" type="ACTUATOR_READ_REGEX">
-               <text><![CDATA[^."C:(<Value>-?\d+)."]]></text>
+               <text><![CDATA[^.*V:(?<Value>\d+).*]]></text>
             </command>
             <command head-mountable-id="ACT172519b763f35d5c" type="ACTUATOR_READ_REGEX">
-               <text><![CDATA[^."C:(<Value>-?\d+)."]]></text>
+               <text><![CDATA[^.*V:(?<Value>\d+).*]]></text>
             </command>
             <command type="POSITION_REPORT_REGEX">
                <text><![CDATA[^.*X:(?<X>-?\d+\.\d+) Y:(?<Y>-?\d+\.\d+) Z:(?<Z>-?\d+\.\d+) A:(?<A>-?\d+\.\d+) B:(?<B>-?\d+\.\d+).*]]></text>
