@@ -1035,7 +1035,7 @@
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
-               <offset-threshold-length value="0.6" units="Millimeters"/>
+               <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="2.0" units="Millimeters"/>
             </calibration>
@@ -1098,7 +1098,7 @@
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
-               <offset-threshold-length value="0.7" units="Millimeters"/>
+               <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="1.5" units="Millimeters"/>
             </calibration>
@@ -1155,7 +1155,7 @@
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
-               <offset-threshold-length value="0.6" units="Millimeters"/>
+               <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="2.1" units="Millimeters"/>
             </calibration>
@@ -1212,7 +1212,7 @@
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
-               <offset-threshold-length value="0.5" units="Millimeters"/>
+               <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="4.0" units="Millimeters"/>
             </calibration>
@@ -1269,7 +1269,7 @@
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
-               <offset-threshold-length value="0.6" units="Millimeters"/>
+               <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="6.0" units="Millimeters"/>
             </calibration>
@@ -1326,7 +1326,7 @@
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
-               <offset-threshold-length value="0.5" units="Millimeters"/>
+               <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
                <calibration-tip-diameter value="6.0" units="Millimeters"/>
             </calibration>
