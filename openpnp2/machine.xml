@@ -408,6 +408,9 @@
       </heads>
       <signalers/>
       <feeders>
+        <feeder class="org.openpnp.machine.index.IndexFeeder" version="1.1" id="FDR1698e93438bbe848" name="0670FF565457888367212340" enabled="true" part-id="FIDUCIAL-HOME" retry-count="3" feed-retry-count="3" pick-retry-count="0" hardware-id="0670FF565457888367212340" part-pitch="4">
+            <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         </feeder>
          <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16db84f3240a38cc" name="Left-8mm-1" enabled="true" part-id="BoardLE+-R0603-4.7k" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="WhitePaper" standard-eia-481="true" vision-enabled="true" feed-count="6" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
             <reference-hole-location units="Millimeters" x="273.9011368772748" y="111.96555461156225" z="-26.5" rotation="0.0"/>
