@@ -269,7 +269,7 @@
       <heads>
          <head class="org.openpnp.machine.reference.ReferenceHead" id="H1" name="H1" visual-homing-method="ResetToFiducialLocation" nozzle-solution="Standalone" nozzle-solutions-multiplier="1">
             <nozzles>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518bfaaf7d370" axis-rotation-id="AXS172518dbba650dd4" id="N1" name="N1" rotation-mode="MinimalRotation" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="NT1" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518bfaaf7d370" axis-rotation-id="AXS172518dbba650dd4" id="N1" name="N1" rotation-mode="MinimalRotation" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="TIP16b1a61b09e0c660" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP16deefe196ef7a3b</string>
                      <string>TIP171d0a136ec3156c</string>
@@ -283,7 +283,7 @@
                   <vacuum-sense-actuator-name>VAC1-N1_Sense</vacuum-sense-actuator-name>
                   <vacuum-actuator-name>N1_PumpAndValve</vacuum-actuator-name>
                </nozzle>
-               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518d062930224" axis-rotation-id="AXS172518e4bbb3a188" id="NOZ1725191b1873c2dc" name="N2" rotation-mode="MinimalRotation" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" current-nozzle-tip-id="TIP16b1a61b09e0c660" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" axis-X-id="AXS169824381580efcb" axis-Y-id="AXS16982438158c4660" axis-Z-id="AXS172518d062930224" axis-rotation-id="AXS172518e4bbb3a188" id="NOZ1725191b1873c2dc" name="N2" rotation-mode="MinimalRotation" max-pick-articulation-angle="15.0" max-alignment-articulation-angle="30.0" pick-dwell-milliseconds="250" place-dwell-milliseconds="100" changer-enabled="true" nozzle-tip-changed-on-manual-feed="true" enable-dynamic-safe-z="false" version="200" limit-rotation="true">
                   <compatible-nozzle-tip-ids class="java.util.ArrayList">
                      <string>TIP171d0a136ec3156c</string>
                      <string>NT1</string>
@@ -712,10 +712,10 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e6cbf27bcfe644" name="Long Left 1 12mm" enabled="false" part-id="BoardLE+-PTS526SK15SMTR2LFS-PTS526SK15SMTR2LFS" retry-count="3" feed-retry-count="3" pick-retry-count="3" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="6">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e6cbf27bcfe644" name="Long Left 1 12mm" enabled="true" part-id="BoardLE+-PTS526SK15SMTR2LFS-PTS526SK15SMTR2LFS" retry-count="3" feed-retry-count="3" pick-retry-count="3" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="6">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="87.32927308659366" y="180.16953979686804" z="-26.5" rotation="0.0"/>
-            <last-hole-location units="Millimeters" x="87.30064088477184" y="172.16506377696228" z="0.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="89.17129001236559" y="177.2333661572936" z="-26.5" rotation="0.0"/>
+            <last-hole-location units="Millimeters" x="89.17874965539592" y="169.18827826015" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="12.0" units="Millimeters"/>
             <pipeline>
@@ -732,10 +732,10 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e7222b8e701c58" name="Back Middle 12mm 1" enabled="false" part-id="BoardLE+-APA102-5050-APA102-5050" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="BlackPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="20">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e7222b8e701c58" name="Back Middle 12mm 1" enabled="true" part-id="BoardLE+-APA102-5050-APA102-5050" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="BlackPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="20">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="180.0"/>
-            <reference-hole-location units="Millimeters" x="88.46717731981823" y="377.189371498358" z="-27.5" rotation="0.0"/>
-            <last-hole-location units="Millimeters" x="88.4829656702682" y="369.1593861220085" z="0.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="88.34964647843525" y="377.21794160923866" z="-27.5" rotation="0.0"/>
+            <last-hole-location units="Millimeters" x="88.36380892067449" y="369.18869690185073" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="12.0" units="Millimeters"/>
             <pipeline>
@@ -752,10 +752,10 @@
                </stages>
             </pipeline>
          </feeder>
-         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e722ceca0ed850" name="Back Middle 16mm 2" enabled="false" part-id="BoardLE+-PTS636SK43JSMTRLFS-PTS636SK43JSMTRLFS" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="30">
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceStripFeeder" version="1.1" id="FDR16e722ceca0ed850" name="Back Middle 16mm 2" enabled="true" part-id="BoardLE+-PTS636SK43JSMTRLFS-PTS636SK43JSMTRLFS" retry-count="3" feed-retry-count="3" pick-retry-count="0" tape-type="ClearPlastic" standard-eia-481="true" vision-enabled="true" feed-count="0" max-feed-count="30">
             <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="-90.0"/>
-            <reference-hole-location units="Millimeters" x="102.59225613811162" y="359.015872975978" z="-26.5" rotation="0.0"/>
-            <last-hole-location units="Millimeters" x="102.7598370050527" y="351.0241266665866" z="0.0" rotation="0.0"/>
+            <reference-hole-location units="Millimeters" x="104.16293735247335" y="377.02598179611596" z="-28.1" rotation="0.0"/>
+            <last-hole-location units="Millimeters" x="104.18585629973413" y="369.0187397330017" z="0.0" rotation="0.0"/>
             <part-pitch value="8.0" units="Millimeters"/>
             <tape-width value="16.0" units="Millimeters"/>
             <pipeline>
@@ -763,7 +763,7 @@
                   <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="original" enabled="true" default-light="true" settle-first="true" count="1"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb0" enabled="false" prefix="strip_" suffix=".png"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="predetect-1" enabled="false" kernel-size="5" property-name="BlurGaussian"/>
-                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="results" enabled="true" min-diameter="10" max-diameter="100" max-distance="100" search-width="0" search-height="0" max-target-count="2" min-symmetry="1.1" corr-symmetry="0.25" property-name="sprocketHole" outer-margin="0.3" inner-margin="0.1" sub-sampling="8" super-sampling="2" diagnostics="true" heat-map="false"/>
+                  <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="results" enabled="true" min-diameter="90" max-diameter="120" max-distance="1000" search-width="0" search-height="0" max-target-count="2" min-symmetry="1.2" corr-symmetry="0.25" property-name="" outer-margin="0.3" inner-margin="0.1" sub-sampling="8" super-sampling="2" diagnostics="true" heat-map="true"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.ImageRecall" name="recalled" enabled="false" image-stage-name="original"/>
                   <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="display" enabled="true" circles-stage-name="results" thickness="1">
                      <color r="255" g="0" b="0" a="255"/>
@@ -841,8 +841,8 @@
             <tcp line-ending-type="LF" ip-address="127.0.0.1" port="23" name="TcpCommunications"/>
             <simulated line-ending-type="LF"/>
             <homing-fiducial-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
-            <detected-firmware><![CDATA[FIRMWARE_NAME:Marlin bugfix-2.1.x (Oct 13 2022 15:29:37) SOURCE_CODE_URL:github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:Opulo Pick-and-Place EXTRUDER_COUNT:0 AXIS_COUNT:6 UUID:cede2a2f-41a2-4748-9b12-c55c62f367ff]]></detected-firmware>
-            <reported-axes><![CDATA[X:78.15 Y:163.43 Z:59.00 A:-80.00 B:-200.00 C:50.00 Count X:12505 Y:26056 Z:2360 A:-3552 B:-888 C:2000]]></reported-axes>
+            <detected-firmware><![CDATA[FIRMWARE_NAME:Marlin bugfix-2.1.x (Dec  2 2022 11:44:59) SOURCE_CODE_URL:github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:Opulo Pick-and-Place EXTRUDER_COUNT:0 AXIS_COUNT:6 UUID:cede2a2f-41a2-4748-9b12-c55c62f367ff]]></detected-firmware>
+            <reported-axes><![CDATA[X:2.00 Y:480.00 Z:30.50 A:180.00 B:180.00 C:50.00 Count X:437 Y:76726 Z:1220 A:19980 B:15185 C:2000]]></reported-axes>
             <command type="COMMAND_CONFIRM_REGEX">
                <text><![CDATA[^ok.*]]></text>
             </command>
@@ -1033,12 +1033,7 @@
                      <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb1" enabled="false" prefix="fidloc_results_" suffix=".png"/>
                   </stages>
                </pipeline>
-               <runout-compensation-lookup class="java.util.HashMap">
-                  <entry>
-                     <string>N1</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.41379312" center-y="-0.41379312" radius="0.12474281341577284" phase-shift="158.19859051364818" units="Millimeters" peak-error="0.014901229772521729" rms-error="0.00971057567909019"/>
-                  </entry>
-               </runout-compensation-lookup>
+               <runout-compensation-lookup class="java.util.HashMap"/>
                <minimum-detail-size value="0.2" units="Millimeters"/>
                <offset-threshold-length value="1.0" units="Millimeters"/>
                <calibration-Z-offset value="0.0" units="Millimeters"/>
@@ -1098,8 +1093,8 @@
                </pipeline>
                <runout-compensation-lookup class="java.util.HashMap">
                   <entry>
-                     <string>NOZ1725191b1873c2dc</string>
-                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.5229885266666666" center-y="-0.46551726" radius="0.037054137062287565" phase-shift="63.43494882292201" units="Millimeters" peak-error="0.01417401147603168" rms-error="0.008839028506972772"/>
+                     <string>N1</string>
+                     <runout-compensation class="org.openpnp.machine.reference.ReferenceNozzleTipCalibration$ModelBasedRunoutCameraOffsetCompensation" center-x="0.5114942733333333" center-y="-0.4022988666666666" radius="0.0926353426557189" phase-shift="161.56505117707798" units="Millimeters" peak-error="0.01731845844794982" rms-error="0.012974001083168561"/>
                   </entry>
                </runout-compensation-lookup>
                <minimum-detail-size value="0.2" units="Millimeters"/>
