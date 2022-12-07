@@ -62,7 +62,7 @@
             <cv-stage class="org.openpnp.vision.pipeline.stages.MaskCircle" name="4" enabled="true" diameter="525" property-name="MaskCircle"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="5" enabled="true" conversion="Bgr2HsvFull"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.MaskHsv" name="6" enabled="true" auto="false" fraction-to-mask="0.0" hue-min="60" hue-max="130" saturation-min="32" saturation-max="255" value-min="64" value-max="255" soft-edge="0" soft-factor="1.0" invert="false" binary-mask="false" property-name="MaskHsv"/>
-            <cv-stage class="org.openpnp.vision.pipeline.stages.MaskHsv" name="threshold" enabled="true" auto="false" fraction-to-mask="0.0" hue-min="0" hue-max="255" saturation-min="0" saturation-max="255" value-min="0" value-max="150" soft-edge="0" soft-factor="1.0" invert="false" binary-mask="false" property-name=""/>
+            <cv-stage class="org.openpnp.vision.pipeline.stages.MaskHsv" name="threshold" enabled="true" auto="false" fraction-to-mask="0.0" hue-min="0" hue-max="255" saturation-min="0" saturation-max="255" value-min="0" value-max="100" soft-edge="0" soft-factor="1.0" invert="false" binary-mask="false" property-name=""/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="7" enabled="true" conversion="Hsv2BgrFull"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertColor" name="8" enabled="true" conversion="Bgr2Gray"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.FindContours" name="findCountours" enabled="true" retrieval-mode="List" approximation-method="None"/>
@@ -129,7 +129,7 @@
             <cv-stage class="org.openpnp.vision.pipeline.stages.ImageCapture" name="image" enabled="true" default-light="true" settle-first="true" count="1"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.ImageWriteDebug" name="deb0" enabled="false" prefix="fidloc_source_" suffix=".png"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.BlurGaussian" name="blur" enabled="true" kernel-size="7" property-name="BlurGaussian"/>
-            <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="circular" enabled="true" min-diameter="10" max-diameter="100" max-distance="200" search-width="300" search-height="300" max-target-count="1" min-symmetry="1.2" corr-symmetry="0.0" property-name="fiducial" outer-margin="0.8" inner-margin="0.8" sub-sampling="8" super-sampling="8" diagnostics="true" heat-map="true"/>
+            <cv-stage class="org.openpnp.vision.pipeline.stages.DetectCircularSymmetry" name="circular" enabled="true" min-diameter="10" max-diameter="100" max-distance="200" search-width="250" search-height="250" max-target-count="1" min-symmetry="1.2" corr-symmetry="0.0" property-name="fiducial" outer-margin="0.3" inner-margin="0.5" sub-sampling="8" super-sampling="8" diagnostics="true" heat-map="true"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.ConvertModelToKeyPoints" name="results" enabled="true" model-stage-name="circular"/>
             <cv-stage class="org.openpnp.vision.pipeline.stages.DrawCircles" name="draw" enabled="false" circles-stage-name="circular" thickness="1">
                <color r="255" g="255" b="0" a="255"/>
