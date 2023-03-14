@@ -15,6 +15,7 @@ This repository contains the OpenPnP and Marlin configurations I use for my Opul
 
 ## Special Features Enabled:
  - Up/Down lights are on separate Actuators, and their respective cameras have antiglare and off-after-capture enabled.
+ - Light Actuators handled as Doubles, allowing brightness control in the ImageCapture step of vision pipelines.
  - Optimized camera settling time to 80ms.
  - Nozzle change operations optimized for reasonable speed, without jeopardizing reliability.
  - All vision pipelines use `DetectCircularSymmetry` where appropriate (fids, sprocket holes, nozzles)
@@ -22,6 +23,8 @@ This repository contains the OpenPnP and Marlin configurations I use for my Opul
  - "Disable Machine" button in OpenPNP instructs the machine to disable all outputs (steppers, pumps, values, lights).
 
 ## Kinematic Limits:
+
+(Note: these might be stale. I need to update this whole doc after feeder-beta changes)
 
 - X-Axis: 
   - Feed Rate: 500mm/s
