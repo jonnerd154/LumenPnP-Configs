@@ -9,7 +9,7 @@ This repository contains the OpenPnP and Marlin configurations I use for my Opul
  - X & Y Linear Bearing rails (from @stargirl's mods, combining V2, V3 parts)
  - Sensorless homing on X/Y
  - Drag Chain / Cable Chain (installed using Opulo V3 machine parts)
- - Only Nozzle 1 is populated (not dual nozzle, yet)
+ - Two Nozzles, one nozzle rack
  
  Build the Marlin firmware using Visual Studio and the Platform.io / Marlin plugin.
 
